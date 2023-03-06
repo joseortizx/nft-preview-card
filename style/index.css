@@ -43,3 +43,13 @@ h6 {
   isolation: isolate;
 }
 /* custom properties */
+:root {
+  /* primary */
+  --primary-color-softBlue: hsl(215, 51%, 70%);
+  --primary-color-cyan: hsl(178, 100%, 50%);
+  /* neutral */
+  --neutral-color-darkBlueMain: hsl(217, 54%, 11%);
+  --neutral-color-darkBlueCard: hsl(216, 50%, 16%);
+  --neutral-color-darkBlueLine: hsl(215, 32%, 27%);
+  --neutral-color-white: hsl(0, 0%, 100%);
+}
