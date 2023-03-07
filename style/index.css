@@ -135,7 +135,7 @@ body {
   border-radius: 50%;
 }
 .card__img--user img {
-  height: 2rem;
+  width: 2rem;
 }
 .card__paragraph--user {
   font-weight: 300;
@@ -144,4 +144,31 @@ body {
 .user {
   color: var(--neutral-color-white);
   font-weight: 300;
+}
+/* hover */
+.img__item-hover {
+  position: absolute;
+  top: 4.5%;
+  width: 85%;
+  height: 51.5%;
+  border: 1px solid white;
+  border-radius: 11px;
+  background-color: var(--primary-color-cyan);
+  opacity: 0;
+  transition: 0.3s;
+}
+.img__item-hover img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6rem;
+}
+.img__item-hover:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+.text__item-hover:hover {
+  color: var(--primary-color-cyan);
+  cursor: pointer;
 }
