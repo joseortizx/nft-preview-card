@@ -99,7 +99,7 @@ body {
 /* card price */
 .containerFlex {
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 .card__price {
   display: flex;
