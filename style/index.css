@@ -151,9 +151,9 @@ body {
   top: 4.5%;
   width: 85%;
   height: 51.5%;
-  border: 1px solid white;
+  border: 0px solid white;
   border-radius: 11px;
-  background-color: var(--primary-color-cyan);
+  background-color: hsl(178, 100%, 50%, 0.2);
   opacity: 0;
   transition: 0.3s;
 }
@@ -165,7 +165,7 @@ body {
   width: 6rem;
 }
 .img__item-hover:hover {
-  opacity: 0.3;
+  opacity: 1;
   cursor: pointer;
 }
 .text__item-hover:hover {
