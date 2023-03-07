@@ -53,3 +53,78 @@ h6 {
   --neutral-color-darkBlueLine: hsl(215, 32%, 27%);
   --neutral-color-white: hsl(0, 0%, 100%);
 }
+/* general styles */
+body {
+  background-color: var(--neutral-color-darkBlueMain);
+}
+/* card */
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px solid black;
+  border-radius: 11px;
+  width: 20rem;
+  height: 33rem;
+  overflow: hidden;
+  background-color: var(--neutral-color-darkBlueCard);
+  font-family: "Outfit";
+  box-shadow: 0 5px 50px hsl(217, 54%, 6%);
+}
+/* card inside */
+.card__img--product {
+  margin: 1.5rem;
+}
+.card__img--product img {
+  border-radius: 11px;
+}
+.container {
+  margin-left: 1.7rem;
+}
+.card-item {
+  margin-top: 0.8rem;
+}
+/* card title */
+.card__title {
+  color: var(--neutral-color-white);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card__title--sub {
+  color: var(--primary-color-softBlue);
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* card price */
+.containerFlex {
+  display: flex;
+}
+.card__price {
+  color: var(--primary-color-cyan);
+  padding-right: 7rem;
+  font-weight: 600;
+}
+.card__days--left {
+  color: var(--primary-color-softBlue);
+  font-weight: 300;
+}
+/* linea divisora */
+.divisor {
+  border-top: 0.01rem solid var(--neutral-color-darkBlueLine);
+  width: 90%;
+}
+/* card user */
+.card__img--user {
+  width: 3rem;
+  padding-right: 1rem;
+  border: 1px solid var(--primary-color-cyan);
+}
+.card__paragraph--user {
+  font-weight: 300;
+  color: var(--primary-color-softBlue);
+}
+.user {
+  color: var(--neutral-color-white);
+  font-weight: 300;
+}
