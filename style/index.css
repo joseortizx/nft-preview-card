@@ -99,15 +99,28 @@ body {
 /* card price */
 .containerFlex {
   display: flex;
+  text-align: center;
 }
 .card__price {
+  display: flex;
+  align-items: center;
   color: var(--primary-color-cyan);
-  padding-right: 7rem;
+  padding-right: 5rem;
   font-weight: 600;
 }
+.card__price img {
+  height: 1.1rem;
+  padding-right: 0.3rem;
+}
 .card__days--left {
+  display: flex;
   color: var(--primary-color-softBlue);
   font-weight: 300;
+  align-items: center;
+}
+.card__days--left img {
+  height: 1.1rem;
+  padding-right: 0.3rem;
 }
 /* linea divisora */
 .divisor {
@@ -116,9 +129,13 @@ body {
 }
 /* card user */
 .card__img--user {
-  width: 3rem;
-  padding-right: 1rem;
-  border: 1px solid var(--primary-color-cyan);
+  width: 2rem;
+  margin-right: 1rem;
+  border: 1.5px solid var(--neutral-color-white);
+  border-radius: 50%;
+}
+.card__img--user img {
+  height: 2rem;
 }
 .card__paragraph--user {
   font-weight: 300;
